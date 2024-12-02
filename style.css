@@ -1,26 +1,28 @@
-/* .header{
-    color: red;
-    display: flex;
-    text-align: center;
-} */
- body{
+body{
     background-color: aqua;
+    margin: 0;
+    padding: 0;
  }
-.head{
-   margin-top: 150px;
-   margin-left: 20%;
+ .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.header h1{
+    display: flex;
+    margin: 5rem 0 2rem 0;
    color: rgb(82, 82, 190);
 }
-.container{
-    background-color: grey;
+ .container{
+    display: flex;
+    justify-content: center;
+ }
+.container div{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 80%;
-    height: 250px;
-    align-items: center;
-    margin-left: 40px;
-    margin-top: 50px;
+    background-color: grey;
+    padding: 7.5rem;
+    box-sizing: border-box;
     border: 1px solid #ccc;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
 }
